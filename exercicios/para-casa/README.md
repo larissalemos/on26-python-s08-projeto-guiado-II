@@ -1,6 +1,24 @@
 # Exercício de Casa 🏠 
 
-## Criar método remove_book 
+## Criar método exibir_livros
+Critérios de aceitação:
+- O método deve ter ao menos 1 (um) teste associado
+- O método deve não tem parâmetro além do self (contém apenas o self obrigatório)
+- O método deve exibir todos os livros que foram adicionados
+(dica retorne a lista e valide se contém todos os livros adicionados)
+
+## Criar método emprestar_livro
+Critérios de aceitação:
+- O método deve ter ao menos 1 (um) teste associado
+- O método deve receber como parâmetro o nome do livro a ser emprestado
+- O método deve marcar o valor de esta_emprestado como `True`
+
+
+*******
+
+## Opcional
+
+### Criar método remover_livro 
 Critérios de aceitação:
 - O método deve ter ao menos 1 (um) teste associado
 - O método deve receber como parâmetro o nome do livro e remover da propriedade Books
@@ -8,16 +26,16 @@ Critérios de aceitação:
 - Caso o livro não seja encontrado o método não deve dar erro ou exceções
 - Apenas livros não emprestados podem ser removidos (opcional)
 
-## Criar método search_book 
+### Criar método buscar_livro
 Critérios de aceitação:
 - O método deve ter ao menos 1 (um) teste associado
 - O método deve receber como parâmetro o nome do livro a ser buscado e retornar o nome do livro, autor e informação se livro está disponível ou emprestado
 - Caso o livro não seja encontrado o método deve retornar a mensagem "Livro não encontrado"
 
-## Criar método return_book 
+## Criar método devolver_livro 
 Critérios de aceitação:
 - O método deve ter ao menos 1 (um) teste associado
-- O método deve receber como parâmetro o nome do livro a ser devolvido e mudar o status do livro para não emprestado na propriedade Books
+- O método deve receber como parâmetro o nome do livro a ser devolvido e mudar o status do livro para não emprestado na propriedade Livros
 - Caso o livro não seja encontrado o método deve apenas exibir a mensagem "Livro não encontrado"
 
 ---

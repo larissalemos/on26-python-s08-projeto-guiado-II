@@ -3,8 +3,6 @@
 ## Sistema de gerenciamento de biblioteca
 Criar um sistema de gerenciamento de biblioteca usando TDD com as funcionalidades:
 - Adicionar livros
-- Listar livros
-- Emprestar livros
 
 Terminou o exercício? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!
 
